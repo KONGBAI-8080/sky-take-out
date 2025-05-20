@@ -7,8 +7,6 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 
-
-
 @Data
 @ApiModel(description = "员工登录时传入的数据模型")
 public class EmployeeLoginDto implements Serializable{

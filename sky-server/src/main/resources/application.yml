@@ -1,0 +1,15 @@
+spring:
+    application:
+        name: sky_take_out
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password: 123456
+        url: jdbc:mysql://localhost:3306/sky_take_out?characterEncoding=utf8
+
+# mybatis的配置
+mybatis-plus:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.sky.entity
+    configuration:
+        map-underscore-to-camel-case: true
