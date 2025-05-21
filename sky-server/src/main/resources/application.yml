@@ -13,3 +13,9 @@ mybatis-plus:
     type-aliases-package: com.sky.entity
     configuration:
         map-underscore-to-camel-case: true
+
+logging:
+  config: classpath:logback-spring.xml
+  file:
+    path: 'log'
+    name: 'sky_take_out.server.log'

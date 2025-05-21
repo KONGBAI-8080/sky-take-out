@@ -11,12 +11,9 @@ import com.sky.vo.EmployeeLoginVO;
 
 import lombok.extern.slf4j.Slf4j;
 
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
-
 
 
 @RestController
@@ -27,7 +24,7 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
-    @GetMapping("/login")
+    @PostMapping("/login")
     public Result<EmployeeLoginVO> login(@RequestBody EmployeeLoginDto employeeLoginDto) {
         
         log.info("员工登录：{}", employeeLoginDto);
@@ -42,7 +39,7 @@ public class EmployeeController {
         return Result.success(employeeLoginVO);
     }
 
-    @GetMapping("/logout")
+    @PostMapping("/logout")
     public Result<String> logout() {
         return Result.success();
     }
