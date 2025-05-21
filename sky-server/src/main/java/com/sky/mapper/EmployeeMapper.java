@@ -13,6 +13,6 @@ public interface EmployeeMapper extends BaseMapper<Employee>{
      * @param username
      * @return
      */
-    @Select("selct * from employee where username = #{username}")
+    @Select("select * from employee where username = #{username}")
     Employee getByUsername(String username);
 }

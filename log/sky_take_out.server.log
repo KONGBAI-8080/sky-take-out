@@ -1,0 +1,24 @@
+2025-05-21 11:13:08.566 [main] INFO  com.sky.SkyTakeOutApplication - Starting SkyTakeOutApplication using Java 21.0.7 with PID 23004 (D:\sky-take-out\sky-take-out\sky-server\target\classes started by 21179 in D:\sky-take-out\sky-take-out)
+2025-05-21 11:13:08.570 [main] INFO  com.sky.SkyTakeOutApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-21 11:13:10.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-21 11:13:10.126 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-21 11:13:10.128 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-21 11:13:10.131 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-21 11:13:10.192 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-21 11:13:10.192 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1540 ms
+2025-05-21 11:13:11.218 [main] INFO  c.b.m.e.spring.MybatisPlusApplicationContextAware - Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3542162a
+2025-05-21 11:13:11.314 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-21 11:13:11.347 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-21 11:13:11.356 [main] INFO  com.sky.SkyTakeOutApplication - Started SkyTakeOutApplication in 3.569 seconds (process running for 3.964)
+2025-05-21 11:13:21.159 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-21 11:13:21.159 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-21 11:13:21.161 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-21 11:13:21.303 [http-nio-8080-exec-2] INFO  com.sky.controller.admin.EmployeeController - 员工登录：EmployeeLoginDto(username=admin, password=123456)
+2025-05-21 11:13:21.333 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-21 11:13:21.792 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3fa7bde0
+2025-05-21 11:13:21.795 [http-nio-8080-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-21 11:26:28.832 [http-nio-8080-exec-7] INFO  com.sky.controller.admin.EmployeeController - 员工登录：EmployeeLoginDto(username=admin, password=123456)
+2025-05-21 12:50:59.665 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-21 12:50:59.672 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-21 12:50:59.675 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-21 12:50:59.693 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
